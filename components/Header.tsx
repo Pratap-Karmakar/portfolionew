@@ -25,7 +25,7 @@ export default function Header({ }: Props) {
             }}
             className='flex flex-row items-center'>
                  <SocialIcon 
-                 url="https://github.com/Pratap-Karmakar"
+                 url="https://www.linkedin.com/in/pratap-karmakar-2b25b2103/"
                  fgColor='gray'
                  bgColor='transparent'
                  />
@@ -35,7 +35,7 @@ export default function Header({ }: Props) {
                  bgColor='transparent'
                  />
                  <SocialIcon 
-                 url="https://github.com/Pratap-Karmakar"
+                 url="https://mail.google.com/mail/mu/mp/347/#tl/priority/%5Esmartlabel_personal"
                  fgColor='gray'
                  bgColor='transparent'
                  />
