@@ -37,6 +37,7 @@ export default function Header({ }: Props) {
                  <SocialIcon 
                  url="https://mail.google.com/mail/mu/mp/347/#tl/priority/%5Esmartlabel_personal"
                  fgColor='gray'
+                 className='hover:text-red-500'
                  bgColor='transparent'
                  />
             </motion.div>

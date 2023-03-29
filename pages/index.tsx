@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
+import Skills from '@/components/Skills'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,7 +13,7 @@ export default function Home() {
   return (
     <div className='bg-[rgb(36,36,36)] z-0 overflow-scroll h-screen text-white snap-y snap-mandatory'>
       <Head >
-        <title>Pratap KArmakar</title>
+        <title>Pratap Karmakar</title>
       </Head>
 
       {/* Header */}
@@ -26,11 +27,14 @@ export default function Home() {
       </section>
 
       {/* About */}
-      <section id='sbout' className='snap-center'>
+      <section id='about' className='snap-center'>
         <About/>
       </section>
 
       {/* Skills */}
+      <section id='skills' className='snap-center'>
+        <Skills/>
+      </section>
 
       {/* Projects */}
 
