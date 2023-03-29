@@ -33,7 +33,7 @@ export default function Skills({ }: Props) {
                     duration: 1.5
                 }} 
                 
-                className='flex flex-wrap gap-12 justify-center items-center my-6 max-w-lg mx-auto mt-44'>
+                className='flex flex-wrap gap-12 justify-center items-center my-6 max-w-lg mx-auto  md:mt-44'>
 
                 <div className='flex flex-col items-center'>
                     <div className='relative w-14 h-14'>
