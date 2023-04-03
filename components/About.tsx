@@ -27,7 +27,7 @@ export default function About({ }: Props) {
             src="avatar.png" alt="Avatar Image"/>
             <div className='-mt-20 space-y-10 px-0 md:px-10'>
                 <h4 className='text-xl md:text-2xl mt-14 font-semibold md:mt-32 text-gray-400'>
-                    Hi! I am a self-thought passionate Web Application Developer, specialized in Frontend Web-Development, As a Frontend Developer I can create perfectly responsive client side web application and give them life using React.js also I'm very comfortable with Next.js framework as well. I'm familiar with Node.js, Express.js and MongoDB.
+                Hello! I am a self-taught Web Application Developer with a strong passion for Frontend Web-Development. My specialization lies in creating highly responsive client-side web applications using React.js. I am also proficient in the Next.js framework and familiar with Node.js, Express.js, and MongoDB.
                 </h4>
             </div>
         </div>

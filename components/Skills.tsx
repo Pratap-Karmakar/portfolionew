@@ -24,83 +24,83 @@ export default function Skills({ }: Props) {
 
             <motion.div
                 initial={{
-                    opacity: 0
+                    opacity: 0,
                 }}
                 whileInView={{
-                    opacity: 1
+                    opacity: 1,
                 }}
                 transition={{
                     duration: 1.5
                 }} 
                 
-                className='flex flex-wrap gap-12 justify-center items-center my-6 max-w-lg mx-auto  md:mt-44'>
+                className='flex flex-wrap gap-16 justify-center items-center my-6 max-w-lg mx-auto  md:mt-44'>
 
                 <div className='flex flex-col items-center'>
                     <div className='relative w-14 h-14'>
                         <Image src={html} alt='Html' />
                     </div>
-                    <h3 className='pt-1 text-sm text-gray-600 font-bold'>HTML</h3>
+                    <h3 className='pt-1 text-sm text-gray-600 font-semibold'>HTML</h3>
                 </div>
                 <div className='flex flex-col items-center'>
                     <div className='relative w-14 h-14'>
                         <Image src={css} alt='Css' />
                     </div>
-                    <h3 className='pt-1 text-sm text-gray-600 font-bold'>CSS</h3>
+                    <h3 className='pt-1 text-sm text-gray-600 font-semibold'>CSS</h3>
                 </div>
                 <div className='flex flex-col items-center'>
                     <div className='relative w-14 h-14'>
                         <Image src={javascript} alt='JavaScript' />
                     </div>
-                    <h3 className='pt-1 text-sm text-gray-600 font-bold'>JavaScript</h3>
+                    <h3 className='pt-1 text-sm text-gray-600 font-semibold'>JavaScript</h3>
                 </div>
                 <div className='flex flex-col items-center'>
                     <div className='relative w-14 h-14'>
                         <Image src={react} alt='React' />
                     </div>
-                    <h3 className='pt-1 text-sm text-gray-600 font-bold'>React</h3>
+                    <h3 className='pt-1 text-sm text-gray-600 font-semibold'>React</h3>
                 </div>
                 <div className='flex flex-col items-center'>
                     <div className='relative w-14 h-14'>
                         <Image src={redux} alt='Redux' />
                     </div>
-                    <h3 className='pt-1 text-sm text-gray-600  font-bold'>Redux</h3>
+                    <h3 className='pt-1 text-sm text-gray-600  font-semibold'>Redux</h3>
                 </div>
 
                 <div className='flex flex-col items-center'>
                     <div className='relative w-14 h-14'>
                         <Image src={nextjs} alt='NextJs' />
                     </div>
-                    <h3 className='pt-1 text-sm text-gray-600 font-bold '>NextJs</h3>
+                    <h3 className='pt-1 text-sm text-gray-600 font-semibold '>NextJs</h3>
                 </div>
                 <div className='flex flex-col items-center'>
                     <div className='relative w-14 h-14'>
                         <Image src={bootstrap} alt='Bootstrap' />
                     </div>
-                    <h3 className='pt-1 text-sm text-gray-600 font-bold'>Bootstrap</h3>
+                    <h3 className='pt-1 text-sm text-gray-600 font-semibold'>Bootstrap</h3>
                 </div>
                 <div className='flex flex-col items-center'>
                     <div className='relative w-14 h-14'>
                         <Image src={tailwind} alt='Tailwind' />
                     </div>
-                    <h3 className='pt-1 text-sm text-gray-600 font-bold'>Tailwind</h3>
+                    <h3 className='pt-1 text-sm text-gray-600 font-semibold'>Tailwind</h3>
                 </div>
                 <div className='flex flex-col items-center'>
                     <div className='relative w-14 h-14'>
                         <Image src={nodejs} alt='NodeJS' />
                     </div>
-                    <h3 className='pt-1 text-sm text-gray-600 font-bold'>NodeJs</h3>
+                    <h3 className='pt-1 text-sm text-gray-600 font-semibold'>NodeJs</h3>
                 </div>
                 <div className='flex flex-col items-center'>
                     <div className='relative w-14 h-14'>
                         <Image src={expressjs} alt='ExpressJS' />
                     </div>
-                    <h3 className='pt-1 text-sm text-gray-600 font-bold'>ExpressJs</h3>
+                    <h3 className='pt-1 text-sm text-gray-600 font-semibold'>ExpressJs</h3>
                 </div>
                 <div className='flex flex-col items-center'>
                     <div className='relative w-14 h-14'>
                         <Image src={mongodb} alt='MongoDB' />
                     </div>
-                    <h3 className='pt-1 text-sm text-gray-600 font-bold'>MongoDB</h3>
+                    <h3 className='pt-1 text-sm text-gray-600 font-semibold'>MongoDB</h3>
                 </div>
             </motion.div>
         </div>
