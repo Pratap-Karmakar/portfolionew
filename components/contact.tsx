@@ -45,7 +45,7 @@ export default function About({}: Props) {
 
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="flex flex-col space-y-2 mx-auto w-fit md:mt-44 -mt-32 md:-mr-10 -ml-7 "
+        className="flex flex-col space-y-2 mx-auto w-fit md:mt-44 -mt-32 md:-mr-10 -ml-8 "
       >
         <div className="flex space-x-2">
           {/* ... spread operator */}
