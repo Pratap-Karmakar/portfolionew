@@ -22,9 +22,9 @@ export default function Projects({ }: Props) {
             <h3 className="absolute top-14 md:top-24 uppercase tracking-[20px] text-gray-500 text-2xl pt-11 md:pt-0">
                 Projects
             </h3>
-            <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
+            <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-slate-700/20 scrollbar-thumb-[#F7AB0A]">
                 {projects.map((project, index) => (
-                    <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center  h-screen md:mt-32 mt-0">
+                    <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center  h-screen md:mt-14 md:-mb-16 mt-0">
 
                         <motion.img
                         initial={{
